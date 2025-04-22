@@ -46,7 +46,7 @@ app.use('/auth',authRoutes);
 app.use('/user', userRoutes);
 
 async function main() {
-    mongoose.connect('mongodb://127.0.0.1:27017/schedulerHub');
+    mongoose.connect('mongodb://127.0.0.1:27017/MineralCatPTE');
 }
 
 module.exports = app;
